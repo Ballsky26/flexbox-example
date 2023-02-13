@@ -35,3 +35,40 @@ body {
     flex: 1;
     order: 3;
 }
+
+/* Latihan 2 */
+.container-dua {
+    max-width: 800px;
+    margin: 50px auto;
+
+}
+
+.layanan {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.layanan.satu {
+    background-color: salmon;
+}
+
+.layanan.dua {
+    background-color: aqua;
+}
+
+.layanan.tiga {
+    background-color: greenyellow;
+}
+
+/* Responsive */
+@media(min-width: 600px) {
+    .container-dua {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .layanan {
+        width: 30%;
+    }
+}
